@@ -151,10 +151,11 @@
     .serv_sec .inner_serv_sec {
       background: #F0F0F0;
       width: 100%;
-      position: relative; }
+      position: relative;
+      padding-bottom: 100px; }
       .serv_sec .inner_serv_sec .sup-heading {
         font-family: Futura;
-        font-size: 48px;
+        font-size: 36px;
         color: #99CCEE;
         font-weight: lighter;
         letter-spacing: 20px;
@@ -275,7 +276,68 @@
           width: 100%;
           margin-top: -30px;
           z-index: 999;
-          display: block; } }
+          display: block; }
+  .mis_univ {
+    background-color: #E5EDF5;
+    height: 900px; }
+    .mis_univ .sup-heading {
+      font-family: Futura;
+      font-size: 36px;
+      color: #99CCEE;
+      font-weight: lighter;
+      letter-spacing: 20px;
+      text-align: center;
+      width: 300px;
+      margin: auto;
+      padding-top: 48px;
+      margin-bottom: 40px; }
+      .mis_univ .sup-heading span {
+        letter-spacing: 20px; }
+    .mis_univ .sub_heading {
+      font-family: Hiragino_Kaku_Gothic;
+      font-size: 16px;
+      letter-spacing: 2px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid black;
+      margin-bottom: 40px;
+      width: 305px;
+      height: 60px;
+      margin-left: auto; }
+    .mis_univ .red_text {
+      color: #FFBBCC;
+      font-family: Futura;
+      font-size: 36px;
+      letter-spacing: 15px;
+      text-align: center;
+      width: 320px;
+      position: relative;
+      bottom: 77px; }
+    .mis_univ .mis_univ_img {
+      width: 300px;
+      height: 400px;
+      margin: 0 auto;
+      text-align: center; }
+      .mis_univ .mis_univ_img img {
+        width: 100%; }
+      .mis_univ .mis_univ_img .more_ink {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        background-image: url(../images/arrow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 10px; }
+        .mis_univ .mis_univ_img .more_ink a {
+          width: 100px;
+          height: 60px;
+          text-align: center;
+          padding-top: 10px;
+          color: black;
+          font-family: Futura;
+          font-size: 14px;
+          text-transform: uppercase;
+          letter-spacing: 10px; } }
 
 * {
   margin: 0;
