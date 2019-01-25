@@ -155,15 +155,15 @@
       padding-bottom: 100px; }
       .serv_sec .inner_serv_sec .sup-heading {
         font-family: Futura;
-        font-size: 36px;
+        font-size: 50px;
         color: #99CCEE;
         font-weight: lighter;
-        letter-spacing: 20px;
         text-align: center;
-        width: 300px;
+        width: 320px;
         margin: auto;
         padding-top: 48px;
-        margin-bottom: 40px; }
+        margin-bottom: 40px;
+        letter-spacing: 20px; }
         .serv_sec .inner_serv_sec .sup-heading span {
           letter-spacing: 10px; }
       .serv_sec .inner_serv_sec .sub_heading {
@@ -175,9 +175,10 @@
         margin-bottom: 40px;
         padding-left: 40px;
         width: 220px;
-        height: 60px; }
+        height: 60px;
+        margin-right: auto; }
       .serv_sec .inner_serv_sec .ser_text {
-        width: 320px;
+        width: 90%;
         margin-left: 20px;
         border: 5px solid #FFBBCC;
         padding-left: 15px;
@@ -215,7 +216,7 @@
           background-image: url(../images/arrow.png);
           background-repeat: no-repeat;
           background-position: bottom right;
-          margin-right: -50px; }
+          margin-right: -25px; }
           .serv_sec .inner_serv_sec .ser_text .more_ink a {
             width: 100px;
             height: 40px;
@@ -282,17 +283,17 @@
     height: 900px; }
     .mis_univ .sup-heading {
       font-family: Futura;
-      font-size: 36px;
+      font-size: 50px;
       color: #99CCEE;
       font-weight: lighter;
-      letter-spacing: 20px;
       text-align: center;
-      width: 300px;
+      width: 320px;
       margin: auto;
       padding-top: 48px;
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      letter-spacing: 15px; }
       .mis_univ .sup-heading span {
-        letter-spacing: 20px; }
+        letter-spacing: 25px; }
     .mis_univ .sub_heading {
       font-family: Hiragino_Kaku_Gothic;
       font-size: 16px;
